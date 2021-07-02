@@ -5,30 +5,33 @@ using UnityEngine.UI;
 //mover entre escenas
 using UnityEngine.SceneManagement;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class scriptCrearEspacios : MonoBehaviour
 {
-    List<string> lista_pisos;
+    public Dropdown  ddPiso;
+    public Dropdown  ddIluminacion;
+    public Dropdown  ddEscritorio;     
+    public Dropdown  ddSilla;
+    public Dropdown  ddCuadro;
+
+    List<string> pisos = new List<string>() { "madera rustico", "madera oscuro", "madera clara", "madera gris", "alfombre girs con morado", "baldosas con diseno" };
+    List<string> posiciones = new List<string>() { "superior izq", "superior der", "centro", "inferior izq", "inferior der" };
+
     // Start is called before the first frame update
     void Start()
     {
+       ddPiso.AddOptions(pisos);
+       ddEscritorio.AddOptions(posiciones);
+       ddSilla.AddOptions(posiciones);
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        var d = serializedObject.FindProperty("DdwnPiso");
-        var dropdown_piso = transform.GetComponent<Dropdown>();
-        dropdown_piso.options.Clear();
-        lista_pisos = new List<string>();
-        lista_pisos.Add("piso1_scaled");
-        lista_pisos.Add("piso2_scaled");
-        lista_pisos.Add("piso3_scaled");
-
-        foreach(var piso in lista_pisos)
-        {
-            dropdown_piso.options.Add(new Dropdown.OptionData(){text = piso});
-        }
 
         //dropdown_piso.onValueChanged.AddListener(delegate{DropdownItemSelected(dropdown_piso)});
     }
