@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Habitacion1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/EliminarEspacios.unity
+    guid: 2f000baa519b848bc9e2b0a9b4a1a4d6
+  - enabled: 1
+    path: Assets/Scenes/VerEscenas.unity
+    guid: 668babab276734db7b9db61305f2495c
   m_configObjects: {}

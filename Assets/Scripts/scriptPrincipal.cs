@@ -8,9 +8,7 @@ using UnityEditor;
 #endif
 public class scriptPrincipal : MonoBehaviour
 {
-    public Dropdown ddpiso;
-    //public List<SceneModel> sceneList = new List<SceneModel>();
-    //List<string> pisos = new List<string>() { "piso2_scaled", "piso2_scaled", "piso2_scaled"};
+    
     private static scriptPrincipal _instance;
 
     // Start is called before the first frame update

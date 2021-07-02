@@ -22,4 +22,14 @@ public class scriptMenu : MonoBehaviour
     {
         SceneManager.LoadScene("CrearEspacio");
     }
+
+    public void VerEscena()
+    {
+        SceneManager.LoadScene("VerEscena");
+    }
+
+    public void EliminarEscena()
+    {
+        SceneManager.LoadScene("EliminarEspacios");
+    }
 }
