@@ -37,11 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\scriptCrearEspacios.cs" />
+     <Compile Include="Assets\Scripts\scriptEliminarEpacio.cs" />
+     <Compile Include="Assets\Modelos 3D\Old Nightstand\Demo\demoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\scriptVerEspacio.cs" />
      <Compile Include="Assets\Scripts\scriptPrincipal.cs" />
      <Compile Include="Assets\Scripts\scriptMenu.cs" />
-     <Compile Include="Assets\Scripts\scriptEliminarEpacio.cs" />
-     <Compile Include="Assets\Scripts\scriptVerEspacio.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\proyecto1.xml" />
+     <None Include="Assets\Modelos 3D\PBR Lamp\ReadMe.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

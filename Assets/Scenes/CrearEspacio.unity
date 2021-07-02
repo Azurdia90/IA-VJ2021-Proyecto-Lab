@@ -436,7 +436,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114388852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1894281146}
@@ -445,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8067317, y: 0.6235048}
   m_AnchorMax: {x: 0.8067317, y: 0.6235048}
-  m_AnchoredPosition: {x: 54.00006, y: -262}
+  m_AnchoredPosition: {x: 54.00006, y: -222}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &114388854
@@ -1785,7 +1785,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714938839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1005243493}
@@ -1793,7 +1793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.40178865, y: 0.6061669}
   m_AnchorMax: {x: 0.40178865, y: 0.6061669}
-  m_AnchoredPosition: {x: -476, y: 241}
+  m_AnchoredPosition: {x: -502, y: 241}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714938841
@@ -4177,7 +4177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316, y: -204}
+  m_AnchoredPosition: {x: -316, y: -179}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336498523
@@ -5209,7 +5209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2125203, y: 0.7058353}
   m_AnchorMax: {x: 0.2125203, y: 0.7058353}
-  m_AnchoredPosition: {x: 3, y: 50}
+  m_AnchoredPosition: {x: 3, y: 51}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658985746
@@ -6487,7 +6487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30e4f7dff0984864bb332c86a277f99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ddpiso: {fileID: 1993455148}
 --- !u!224 &2025532945
 RectTransform:
   m_ObjectHideFlags: 0
