@@ -48,6 +48,6 @@ public class scriptCrearEspacios : MonoBehaviour
 
     public void CrearEspacio()
     {
-        principal.CrearEspacio();
+        principal.crearEscena();
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -40,7 +41,7 @@ public class scriptPrincipal : MonoBehaviour
 
     public void crearEscena()
     {
-        currentScene = Escena(unit);
+        currentScene = new Escena(unit);
         lista_escenas.Add(currentScene);
         unit = unit -1;
     }

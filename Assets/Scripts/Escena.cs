@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Escena 
+public class Escena : MonoBehaviour
 {
     private string name;
     private int piso;
