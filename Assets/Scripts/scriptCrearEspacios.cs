@@ -11,6 +11,7 @@ using UnityEditor;
 
 public class scriptCrearEspacios : MonoBehaviour
 {
+    scriptPrincipal principal;
     public Dropdown  ddPiso;
     public Dropdown  ddIluminacion;
     public Dropdown  ddEscritorio;     
@@ -47,6 +48,6 @@ public class scriptCrearEspacios : MonoBehaviour
 
     public void CrearEspacio()
     {
-        
+        principal.CrearEspacio();
     }
 }

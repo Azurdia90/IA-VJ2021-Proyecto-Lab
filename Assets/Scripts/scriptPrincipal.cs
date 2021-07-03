@@ -6,10 +6,15 @@ using UnityEngine.UI;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
+
 public class scriptPrincipal : MonoBehaviour
 {
-    
+    //Instacia del Singleton
     private static scriptPrincipal _instance;
+    //Objetos para manejo de escenas
+    private static Escena currentScene = null;
+    private static int unit = 3;
+    public static List<Escena> lista_escenas = new List<Escena>();
 
     // Start is called before the first frame update
     public static scriptPrincipal GetInstance()
@@ -31,5 +36,12 @@ public class scriptPrincipal : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void crearEscena()
+    {
+        currentScene = Escena(unit);
+        lista_escenas.Add(currentScene);
+        unit = unit -1;
     }
 }
