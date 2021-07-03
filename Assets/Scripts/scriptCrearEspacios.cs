@@ -27,11 +27,15 @@ public class scriptCrearEspacios : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       ddPiso.AddOptions(pisos);
-       ddIluminacion.AddOptions(iluminacion);
-       ddEscritorio.AddOptions(posiciones);
-       ddSilla.AddOptions(posiciones);
-       ddCuadro.AddOptions(paredes);
+        if(ddPiso != null && ddIluminacion != null && ddEscritorio != null && ddSilla != null & ddCuadro != null)
+        {
+            ddPiso.AddOptions(pisos);
+            ddIluminacion.AddOptions(iluminacion);
+            ddEscritorio.AddOptions(posiciones);
+            ddSilla.AddOptions(posiciones);
+            ddCuadro.AddOptions(paredes);
+        }
+       
     }
 
     // Update is called once per frame
@@ -48,6 +52,6 @@ public class scriptCrearEspacios : MonoBehaviour
 
     public void CrearEspacio()
     {
-        principal.crearEscena();
+        scriptPrincipal.GetInstance().crearEscena(ddPiso.value,ddIluminacion.value,ddEscritorio.value,ddSilla.value,ddCuadro.value,0);
     }
 }
