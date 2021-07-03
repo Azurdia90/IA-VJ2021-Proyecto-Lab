@@ -25,7 +25,7 @@ public class scriptMenu : MonoBehaviour
 
     public void VerEscena()
     {
-        SceneManager.LoadScene("VerEscena");
+        SceneManager.LoadScene("VerEscenas");
     }
 
     public void EliminarEscena()

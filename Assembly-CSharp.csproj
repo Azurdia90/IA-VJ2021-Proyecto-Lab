@@ -41,7 +41,9 @@
      <Compile Include="Assets\Modelos 3D\Old Nightstand\Demo\demoBehaviour.cs" />
      <Compile Include="Assets\Scripts\scriptVerEspacio.cs" />
      <Compile Include="Assets\Scripts\scriptPrincipal.cs" />
+     <Compile Include="Assets\Scripts\scriptMenu.cs" />
      <Compile Include="Assets\Scripts\Escena.cs" />
+     <Compile Include="Assets\Scripts\ArCamera.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\proyecto1.xml" />
      <None Include="Assets\Modelos 3D\PBR Lamp\ReadMe.txt" />
     <Reference Include="UnityEngine">

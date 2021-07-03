@@ -18,14 +18,12 @@ public class scriptCrearEspacios : MonoBehaviour
     public Dropdown  ddSilla;
     public Dropdown  ddCuadro;
 
-    List<string> pisos = new List<string>() { "madera rustico", "madera oscuro", "madera clara", "madera gris", "alfombre girs con morado", "baldosas con diseno" };
-    List<string> iluminacion = new List<string>() { "Verde", "Azul", "Amarillo"};
+    List<string> pisos = new List<string>() { "piso1", "piso2", "piso3"};
+    List<string> iluminacion = new List<string>() { "Verde", "Azul", "Rojo"};
     List<string> posiciones = new List<string>() { "superior izquierda", "superior derecha", "centro", "inferior izquierda", "inferior dererecha" };
     List<string> paredes = new List<string>() { "Pared 1", "Pared 2"};
 
-
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if(ddPiso != null && ddIluminacion != null && ddEscritorio != null && ddSilla != null & ddCuadro != null)
         {
@@ -35,14 +33,6 @@ public class scriptCrearEspacios : MonoBehaviour
             ddSilla.AddOptions(posiciones);
             ddCuadro.AddOptions(paredes);
         }
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-        
     }
 
     public void Regresar()
