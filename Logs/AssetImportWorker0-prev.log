@@ -15,12 +15,12 @@ D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60833
+52698
 Successfully changed project path to: D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab
 D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 5.72 ms.
+Refreshing native plugins compatible for Editor in 57.47 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 4.80 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path D:/Program Files/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002051 seconds.
+Registered in 0.001724 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.73 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 47.35 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.137 seconds
+- Completed reload, in  4.224 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016113 seconds.
+Registered in 0.017442 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -79,87 +79,21 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.752 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 1440 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.1 MB.
-System memory in use after: 69.1 MB.
+System memory in use before: 81.3 MB.
+System memory in use after: 81.3 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2129.
-Total: 2.428400 ms (FindLiveObjects: 0.230800 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.013000 ms  DeleteObjects: 0.114500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(d1cf290f5331e49119bdd76d81c68dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(d1cf290f5331e49119bdd76d81c68dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f936dd5aea0ef59c22817865e2125514') in 0.057949 seconds 
-  Import took 0.060716 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023287 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.427 seconds
-Platform modules already initialized, skipping
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2132.
-Total: 2.316700 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.975200 ms  DeleteObjects: 0.110100 ms)
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 2.320100 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.076400 ms MarkObjects: 1.905000 ms  DeleteObjects: 0.141300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -174,799 +108,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 204.317149 seconds.
-  path: Assets/Modelos 3D/Furniture/Source
-  artifactKey: Guid(305530ec33c271b4c89709d8dc07f592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source using Guid(305530ec33c271b4c89709d8dc07f592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d5db5be4be68c5824d6f10f5bf1d9a') in 0.031245 seconds 
-  Import took 0.037066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.437957 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials
-  artifactKey: Guid(da229c6dd621251488648d65339dd2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials using Guid(da229c6dd621251488648d65339dd2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2b7d158c2d156e987f4f0ee026bea4') in 0.004295 seconds 
-  Import took 0.007755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001804 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials
-  artifactKey: Guid(da229c6dd621251488648d65339dd2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials using Guid(da229c6dd621251488648d65339dd2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2b7d158c2d156e987f4f0ee026bea4') in 0.005159 seconds 
-  Import took 0.010499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080769 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/2Seat_BaseColor.mat
-  artifactKey: Guid(79764e7ca9884494cbe558b2bdb1d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/2Seat_BaseColor.mat using Guid(79764e7ca9884494cbe558b2bdb1d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3234e7657993da1acd5266903a5e0ab') in 0.247782 seconds 
-  Import took 0.251256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/2SeatD_BaseColor.mat
-  artifactKey: Guid(ccba79b675706c24b9844d369f23ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/2SeatD_BaseColor.mat using Guid(ccba79b675706c24b9844d369f23ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a59e95faece1a44194c7f1d8a1ba2d') in 0.030562 seconds 
-  Import took 0.034222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/fotel2_BaseColor.mat
-  artifactKey: Guid(5f8bd68770af8084bad71e5e368e73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/fotel2_BaseColor.mat using Guid(5f8bd68770af8084bad71e5e368e73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a18489695356a31670d0acaef7221c') in 0.030388 seconds 
-  Import took 0.033583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/closet2_BaseColor.mat
-  artifactKey: Guid(22745fe35ff3d3a4491bedbd8f6e49b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/closet2_BaseColor.mat using Guid(22745fe35ff3d3a4491bedbd8f6e49b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c946252efcb9ef10cc0217f9bd2f26fb') in 0.032265 seconds 
-  Import took 0.035741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/couch_BaseColor.mat
-  artifactKey: Guid(db493b3fe60ef33498992529fc74113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/couch_BaseColor.mat using Guid(db493b3fe60ef33498992529fc74113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62058d1993e4f0f0539fdc79d7349a22') in 0.036903 seconds 
-  Import took 0.041531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/closet3_BaseColor.mat
-  artifactKey: Guid(3028c5f4db726d04c9cf801f6a720670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/closet3_BaseColor.mat using Guid(3028c5f4db726d04c9cf801f6a720670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f5bfbe1c8a70fdf5fb818258d38a1a') in 0.036370 seconds 
-  Import took 0.040425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/3Seat2D_BaseColor.mat
-  artifactKey: Guid(543b73a4ce5bf66408a57b3d0a721959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/3Seat2D_BaseColor.mat using Guid(543b73a4ce5bf66408a57b3d0a721959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833f52a1c8752368c541bb666de12076') in 0.030840 seconds 
-  Import took 0.037163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/RoundTable_BaseColor.mat
-  artifactKey: Guid(84f03d68c57127346aa3ebb3bb5c8009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/RoundTable_BaseColor.mat using Guid(84f03d68c57127346aa3ebb3bb5c8009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03799caab7a6c7711e13f80ee5d55513') in 0.036895 seconds 
-  Import took 0.040732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/3SeatDirt_BaseColor.mat
-  artifactKey: Guid(efc342f7b2a0699478373355bfc9d9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/3SeatDirt_BaseColor.mat using Guid(efc342f7b2a0699478373355bfc9d9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1f78902750667b839fb141266770af') in 0.034523 seconds 
-  Import took 0.038397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/closet_BaseColor.mat
-  artifactKey: Guid(f6a97756ab140494c88bc5f4aac12a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/closet_BaseColor.mat using Guid(f6a97756ab140494c88bc5f4aac12a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cab00f1f5761651e279b8285212868') in 0.032532 seconds 
-  Import took 0.038056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/Kom_BaseColor.mat
-  artifactKey: Guid(50735be092ba0c449ae21a9c1a6195b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/Kom_BaseColor.mat using Guid(50735be092ba0c449ae21a9c1a6195b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2ea2000629ac6fc3a6a71a037add8d') in 0.033112 seconds 
-  Import took 0.036919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/komm2_BaseColor.mat
-  artifactKey: Guid(331e08cdd401b9445adbabe2ad6b1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/komm2_BaseColor.mat using Guid(331e08cdd401b9445adbabe2ad6b1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e5640b107515984489bc3ad8e0e964') in 0.078884 seconds 
-  Import took 0.082358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/MetalTable_BaseColor.mat
-  artifactKey: Guid(30478f606bb42724abb4b3a08f9279d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/MetalTable_BaseColor.mat using Guid(30478f606bb42724abb4b3a08f9279d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a8f4213d7c1c642667daf966182064') in 0.039793 seconds 
-  Import took 0.044954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/chair_chair_Albedo.mat
-  artifactKey: Guid(d1fba8d3d1a677745a1ef3d5c474f69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/chair_chair_Albedo.mat using Guid(d1fba8d3d1a677745a1ef3d5c474f69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df526cf6004e2f943d23445f084459ec') in 0.072674 seconds 
-  Import took 0.076555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/fotel2D_BaseColor.mat
-  artifactKey: Guid(efa9631d2150a2d47bd7d38728829ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/fotel2D_BaseColor.mat using Guid(efa9631d2150a2d47bd7d38728829ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8271d4afc0d3b58315b442110f505e29') in 0.031192 seconds 
-  Import took 0.036384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/3Seat_BaseColor.mat
-  artifactKey: Guid(e286cf7166a64d9449570f485ef91be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/3Seat_BaseColor.mat using Guid(e286cf7166a64d9449570f485ef91be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3e2af45f97ac12dc9d8f861c8a2d7') in 0.035152 seconds 
-  Import took 0.039192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Materials/3Seat2_BaseColor.mat
-  artifactKey: Guid(53aa0875d11cc604a93539387bccc820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Materials/3Seat2_BaseColor.mat using Guid(53aa0875d11cc604a93539387bccc820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bce415ee62481ad826db19dec2fdcc') in 0.032587 seconds 
-  Import took 0.036184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.446831 seconds.
-  path: Assets/Modelos 3D/Old Nightstand/Materials
-  artifactKey: Guid(ce4b038eaf2502148a7f2b58c284035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Old Nightstand/Materials using Guid(ce4b038eaf2502148a7f2b58c284035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bd81c3700f07ec4d05ffa0cc9bf245') in 0.005247 seconds 
-  Import took 0.008630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074485 seconds.
-  path: Assets/Modelos 3D/Old Nightstand/Materials/Old Nightstand.mat
-  artifactKey: Guid(43e3f3c4ed3410c46bf0095c2368538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Old Nightstand/Materials/Old Nightstand.mat using Guid(43e3f3c4ed3410c46bf0095c2368538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46497cfd73e2ed1f4ee8fd5757aab1bd') in 0.337377 seconds 
-  Import took 0.341699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.827395 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/asi.jpg
-  artifactKey: Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/asi.jpg using Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9a4e28d23539485f1fb1d83cf63fb6') in 0.047743 seconds 
-  Import took 0.054583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.139003 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/asi.jpg
-  artifactKey: Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/asi.jpg using Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94ccc363a3825bfb9cbe478b7d15e3e') in 0.030590 seconds 
-  Import took 0.033384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.327029 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/asi.jpg
-  artifactKey: Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/asi.jpg using Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e89363f3b682b6a483afd7d9e18fe8') in 0.080643 seconds 
-  Import took 0.085397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.951174 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/asi.jpg
-  artifactKey: Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/asi.jpg using Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a8062ce70263d8b965e5bc1f68fb15') in 0.020842 seconds 
-  Import took 0.024522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026638 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/asi.jpg
-  artifactKey: Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/asi.jpg using Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a8062ce70263d8b965e5bc1f68fb15') in 0.017292 seconds 
-  Import took 0.020931 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.309 seconds
-Platform modules already initialized, skipping
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.9 MB.
-System memory in use after: 71.9 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2179.
-Total: 5.040800 ms (FindLiveObjects: 0.686800 ms CreateObjectMapping: 0.177300 ms MarkObjects: 4.071300 ms  DeleteObjects: 0.102700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 362.147449 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/lamp m.prefab
-  artifactKey: Guid(6730e96e10b90864482fea8cbd8b0fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/lamp m.prefab using Guid(6730e96e10b90864482fea8cbd8b0fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad492ab30185e495281a67364c80841') in 1.390665 seconds 
-  Import took 1.397624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.670731 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Textures
-  artifactKey: Guid(3cda817fc52c2044f8532f34ede16ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Textures using Guid(3cda817fc52c2044f8532f34ede16ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06960f9da2670c3917dd4ec9b49b4c44') in 0.004345 seconds 
-  Import took 0.009038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.265730 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Mesh
-  artifactKey: Guid(4fbea326b719bb64a82e2861a0a34b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Mesh using Guid(4fbea326b719bb64a82e2861a0a34b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2bee13fb646288db6931a379014b8c') in 0.010902 seconds 
-  Import took 0.015805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113051 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Mesh/lamp m.FBX
-  artifactKey: Guid(2b6524e8d568c5140b6046a32481a397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Mesh/lamp m.FBX using Guid(2b6524e8d568c5140b6046a32481a397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8664700ffa490a064b89fc7974ac16fc') in 0.688518 seconds 
-  Import took 0.693334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.514649 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Mesh/Materials
-  artifactKey: Guid(1b42c0455e5715041ad1d7491a7bd2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Mesh/Materials using Guid(1b42c0455e5715041ad1d7491a7bd2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b2c5cc10a87b1af940bb540653e070') in 0.005304 seconds 
-  Import took 0.008199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002152 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Mesh/Materials
-  artifactKey: Guid(1b42c0455e5715041ad1d7491a7bd2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Mesh/Materials using Guid(1b42c0455e5715041ad1d7491a7bd2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b2c5cc10a87b1af940bb540653e070') in 0.004901 seconds 
-  Import took 0.009921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070016 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Mesh/Materials/No Name.mat
-  artifactKey: Guid(ac6d168c53614d941bf8c70919ca2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Mesh/Materials/No Name.mat using Guid(ac6d168c53614d941bf8c70919ca2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d0ba10b599947c7c239721d8b734e8') in 0.030199 seconds 
-  Import took 0.033916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.384147 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Materials
-  artifactKey: Guid(4dcb5cdf1f89754469024743fb8c2c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Materials using Guid(4dcb5cdf1f89754469024743fb8c2c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc367ee4895400e993abaac827e6cbb9') in 0.005128 seconds 
-  Import took 0.011701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063238 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Materials/lamp glass 2.mat
-  artifactKey: Guid(e77a57b39a36481408684d2409331c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Materials/lamp glass 2.mat using Guid(e77a57b39a36481408684d2409331c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80a7a254e8556deec214faffa709819') in 0.070218 seconds 
-  Import took 0.076316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Materials/lamp.mat
-  artifactKey: Guid(cfcca782a34c1bc40bedc5fecd693f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Materials/lamp.mat using Guid(cfcca782a34c1bc40bedc5fecd693f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8268e643199269176cd110d583fad42c') in 0.124059 seconds 
-  Import took 0.130610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Materials/volfram.mat
-  artifactKey: Guid(593839c9ae951e841a341782ec7a365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Materials/volfram.mat using Guid(593839c9ae951e841a341782ec7a365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ed3d457b2f8582fdbdd4fa55e881e7') in 0.013453 seconds 
-  Import took 0.017043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Modelos 3D/PBR Lamp/Materials/lamp glass.mat
-  artifactKey: Guid(58c34460b11cb62488d90ad3eb8a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/PBR Lamp/Materials/lamp glass.mat using Guid(58c34460b11cb62488d90ad3eb8a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1018bdc338c9587e437ac44c88dd8431') in 0.085981 seconds 
-  Import took 0.092731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.114060 seconds.
-  path: Assets/Modelos 3D/Old Nightstand/Model/Old Nightstand.fbx
-  artifactKey: Guid(ddee3622447dd1d4895427cfb5b4ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Old Nightstand/Model/Old Nightstand.fbx using Guid(ddee3622447dd1d4895427cfb5b4ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad237cd0ed563c767e7288d6c5bccee') in 0.052768 seconds 
-  Import took 0.055841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.277941 seconds.
-  path: Assets/Modelos 3D/Old Nightstand/Prefab/Old Nightstand.prefab
-  artifactKey: Guid(547cb090302650a45a642efa6818188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Old Nightstand/Prefab/Old Nightstand.prefab using Guid(547cb090302650a45a642efa6818188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256577edcbda31980c108934b9c453db') in 0.032640 seconds 
-  Import took 0.036591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.098697 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/3Seat.fbx
-  artifactKey: Guid(1a946898d5a375744bd71b5d04072493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/3Seat.fbx using Guid(1a946898d5a375744bd71b5d04072493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc321d48b7e53e64612685586124a24') in 0.034847 seconds 
-  Import took 0.039454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/Fotel3.fbx
-  artifactKey: Guid(89f0d4d8bf7c4b842a84a56a9f585be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/Fotel3.fbx using Guid(89f0d4d8bf7c4b842a84a56a9f585be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27e8388a2e16de72a92b79cda478272') in 0.044184 seconds 
-  Import took 0.047681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/BigCloset.fbx
-  artifactKey: Guid(a20abce8e4655294886742eb9bb5c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/BigCloset.fbx using Guid(a20abce8e4655294886742eb9bb5c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad4e0119bab79f2d470c96b836766cd') in 0.045029 seconds 
-  Import took 0.049055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/MetalTable.fbx
-  artifactKey: Guid(1c77c68a06728d143a0320dfcc126c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/MetalTable.fbx using Guid(1c77c68a06728d143a0320dfcc126c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae092c05effa8a3c547a5c0b772bbade') in 0.048008 seconds 
-  Import took 0.052271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/Fotel4.fbx
-  artifactKey: Guid(63bb58ec56e49a94ca6f9dad8d73d9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/Fotel4.fbx using Guid(63bb58ec56e49a94ca6f9dad8d73d9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826f8c91eff780ede54729801c56ff9a') in 0.053534 seconds 
-  Import took 0.058186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/3Seat4.fbx
-  artifactKey: Guid(ae336d95c8140b943993b5e157365001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/3Seat4.fbx using Guid(ae336d95c8140b943993b5e157365001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b142f69fdacf064a0ecc351e2d99b6b1') in 0.042752 seconds 
-  Import took 0.046899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/DoubleSeat2.fbx
-  artifactKey: Guid(c7d0993de6d32ba4bb5ecb7003812a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/DoubleSeat2.fbx using Guid(c7d0993de6d32ba4bb5ecb7003812a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ac24fd4e7d79ed84814f9784a99b25') in 0.043804 seconds 
-  Import took 0.048420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/closet2.fbx
-  artifactKey: Guid(28a7de13a6369f846bf6d64963e8fa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/closet2.fbx using Guid(28a7de13a6369f846bf6d64963e8fa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb34fb5eac02907a94945605e6abd55') in 0.042779 seconds 
-  Import took 0.046413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/Fotel2.fbx
-  artifactKey: Guid(327bca4c4dcd00f45a6d843fc77fda6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/Fotel2.fbx using Guid(327bca4c4dcd00f45a6d843fc77fda6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25094b071132ca2ab2dccde895d0a7f1') in 0.049882 seconds 
-  Import took 0.054134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/Closet3.fbx
-  artifactKey: Guid(924fa25af5f31b14abb039f25dab6ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/Closet3.fbx using Guid(924fa25af5f31b14abb039f25dab6ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09faf0f7329d0450fec73dfdd3f4b52a') in 0.042516 seconds 
-  Import took 0.047384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/MirrorComode.fbx
-  artifactKey: Guid(bbf5add6f97674e4f9d710d2027584f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/MirrorComode.fbx using Guid(bbf5add6f97674e4f9d710d2027584f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cf48ef5cc901fd63f3f206f120f841') in 0.030107 seconds 
-  Import took 0.033820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/3Seat2.fbx
-  artifactKey: Guid(fd8712e1a3b95bf408cf1bf15fb9a131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/3Seat2.fbx using Guid(fd8712e1a3b95bf408cf1bf15fb9a131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa664446ec96b04383460bdd38456b9a') in 0.037235 seconds 
-  Import took 0.040973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/SmallCloset.fbx
-  artifactKey: Guid(947941c3770ac9749a60dfb2404d1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/SmallCloset.fbx using Guid(947941c3770ac9749a60dfb2404d1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8482df0b5747b623c43242a30311603') in 0.047330 seconds 
-  Import took 0.051615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/MirrorComode2.fbx
-  artifactKey: Guid(50c1a10f09bac3e4fa83b73c174ce7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/MirrorComode2.fbx using Guid(50c1a10f09bac3e4fa83b73c174ce7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0328e97bd3e6c68feaa2f0758ea1bf') in 0.041592 seconds 
-  Import took 0.045112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/DoubleSeat.fbx
-  artifactKey: Guid(ec9c5369886554146884f6bfca7662cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/DoubleSeat.fbx using Guid(ec9c5369886554146884f6bfca7662cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b3ed2bba8b29751c270945a9b7734e') in 0.038623 seconds 
-  Import took 0.043088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/chair.fbx
-  artifactKey: Guid(a65804b782e378e46a402e06983b7be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/chair.fbx using Guid(a65804b782e378e46a402e06983b7be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedf0554418a99856924376e5ed12e01') in 0.038275 seconds 
-  Import took 0.042094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/3Seat3.fbx
-  artifactKey: Guid(b07a91327abd3554ab170725ff8ae7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/3Seat3.fbx using Guid(b07a91327abd3554ab170725ff8ae7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df451aa33fe1c9b28c4102d102f46c54') in 0.049026 seconds 
-  Import took 0.052818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/Fotel.fbx
-  artifactKey: Guid(bfbe5cdfd1128ff40b7909bf16a17d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/Fotel.fbx using Guid(bfbe5cdfd1128ff40b7909bf16a17d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e20d3e96edaddeb3521cc7086a208c') in 0.039884 seconds 
-  Import took 0.043939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/RoundTable.fbx
-  artifactKey: Guid(c4bf5ec91ea67e94fb25bfe2b9808275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/RoundTable.fbx using Guid(c4bf5ec91ea67e94fb25bfe2b9808275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e63ea78d14c5f440937cc37fada2bac') in 0.036648 seconds 
-  Import took 0.042090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh/Couch.fbx
-  artifactKey: Guid(b3d2d47cdc25dcc4090c4ba35dcf72ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh/Couch.fbx using Guid(b3d2d47cdc25dcc4090c4ba35dcf72ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2506e4d4c40bb55ffbdd55978895d3b4') in 0.038680 seconds 
-  Import took 0.042223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.750820 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/asi.jpg
-  artifactKey: Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/asi.jpg using Guid(312e7590cae189a4b9d1cc5caffb3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c791cbc8b2637e8a3a206daf41d56d') in 0.041165 seconds 
-  Import took 0.045079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.266779 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/3Seat.prefab
-  artifactKey: Guid(4da9f6017c5c2954282fe23c8f297ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/3Seat.prefab using Guid(4da9f6017c5c2954282fe23c8f297ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732ba04594f042fadb8fea30e200b7e6') in 0.030262 seconds 
-  Import took 0.034666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/chair.prefab
-  artifactKey: Guid(a42ad6a4668ecfb44a1f036838e43f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/chair.prefab using Guid(a42ad6a4668ecfb44a1f036838e43f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e3fb167647d1a1ecac3c1da9c1aa9') in 0.039121 seconds 
-  Import took 0.043145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/3Seat2.prefab
-  artifactKey: Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/3Seat2.prefab using Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7177684eebf455d3e41e02526f6b1be') in 0.036300 seconds 
-  Import took 0.040552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/Couch.prefab
-  artifactKey: Guid(2d5da6ebed3d1dc4db41b66b5eac1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/Couch.prefab using Guid(2d5da6ebed3d1dc4db41b66b5eac1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae401156244e7189d831de7efad387ad') in 0.035867 seconds 
-  Import took 0.041265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/DoubleSeat.prefab
-  artifactKey: Guid(2c59b54db7aeb3d438ea1c0bf9694519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/DoubleSeat.prefab using Guid(2c59b54db7aeb3d438ea1c0bf9694519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570766c1ae26dea55aaa30e163cd2345') in 0.033683 seconds 
-  Import took 0.038217 seconds .
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/StandardCutout.mat
+  artifactKey: Guid(a9267223436693a4bb8e35161a24f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/StandardCutout.mat using Guid(a9267223436693a4bb8e35161a24f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c8158c42ec63be5480104efdaee1d7') in 0.449291 seconds 
+  Import took 0.451943 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000389 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/DoubleSeat2.prefab
-  artifactKey: Guid(d5026a2aaf9d8394a9e8b886d38dbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/DoubleSeat2.prefab using Guid(d5026a2aaf9d8394a9e8b886d38dbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5388599cc6a73ab3dd46bb64df5ffa') in 0.037363 seconds 
-  Import took 0.041851 seconds .
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/OutlineOpaque.mat
+  artifactKey: Guid(1d25c0ce72e58124fa2d482e07c9fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/OutlineOpaque.mat using Guid(1d25c0ce72e58124fa2d482e07c9fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7733edff43ceb38de51e7baffbccebd4') in 0.110777 seconds 
+  Import took 0.113684 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/SmallCloset.prefab
-  artifactKey: Guid(0811362ae53573c47be253aac1dbdd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/SmallCloset.prefab using Guid(0811362ae53573c47be253aac1dbdd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01532ac678850d4391331d893f389dad') in 0.031772 seconds 
-  Import took 0.036574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/Closet3.prefab
-  artifactKey: Guid(c24cdd6fcf1f09248832426ea5388c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/Closet3.prefab using Guid(c24cdd6fcf1f09248832426ea5388c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2aca282871c87d39666a26f2152dce') in 0.032681 seconds 
-  Import took 0.038376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/Fotel.prefab
-  artifactKey: Guid(0a94bd08074ccfd4e938cda201930e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/Fotel.prefab using Guid(0a94bd08074ccfd4e938cda201930e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eb458c9a5df1181770731a961ea790') in 0.032059 seconds 
-  Import took 0.037333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/MetalTable.prefab
-  artifactKey: Guid(204da6aadc13e164eac745605815a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/MetalTable.prefab using Guid(204da6aadc13e164eac745605815a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89cae8ab4bc8b38f23b794f0ffb63fd') in 0.034134 seconds 
-  Import took 0.038211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/RoundTable.prefab
-  artifactKey: Guid(6f43b2566a8dcad4aa8e75125eeda38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/RoundTable.prefab using Guid(6f43b2566a8dcad4aa8e75125eeda38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7923503fdaaa7196c0f488fafb6cb6') in 0.037351 seconds 
-  Import took 0.043467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/Fotel2.prefab
-  artifactKey: Guid(0602526b549f4e74c9107db59bde2a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/Fotel2.prefab using Guid(0602526b549f4e74c9107db59bde2a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd03aea0ae7724ae15a08105499a5bc2') in 0.032180 seconds 
-  Import took 0.036353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/3Seat3.prefab
-  artifactKey: Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/3Seat3.prefab using Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e307855bb46ddb86f40afde0ba98e1f5') in 0.034361 seconds 
-  Import took 0.038905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/3seat4.prefab
-  artifactKey: Guid(245712dbd63f6f94e8467250c1caedd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/3seat4.prefab using Guid(245712dbd63f6f94e8467250c1caedd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e5335f30613174d2a668a66dfa7876') in 0.034660 seconds 
-  Import took 0.040300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/MirrorComode.prefab
-  artifactKey: Guid(f1ffc5e47031c224a92e5b203193d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/MirrorComode.prefab using Guid(f1ffc5e47031c224a92e5b203193d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0bd81bdfc9f9d64269f58a5f830b72') in 0.020747 seconds 
-  Import took 0.024387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/closet2.prefab
-  artifactKey: Guid(7be1856a1844e5a47b82d7cb61f184e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/closet2.prefab using Guid(7be1856a1844e5a47b82d7cb61f184e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a24cb8dbb28c1e0c1936631545457c8') in 0.030318 seconds 
-  Import took 0.034608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/MirrorComode2.prefab
-  artifactKey: Guid(cf75d98c5ad60534184b2a6377117ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/MirrorComode2.prefab using Guid(cf75d98c5ad60534184b2a6377117ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d8af85635f3ed14dcc22929b317ee1') in 0.040531 seconds 
-  Import took 0.044332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/Fotel4.prefab
-  artifactKey: Guid(80967ac7bb2c8104b8dd5b649046d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/Fotel4.prefab using Guid(80967ac7bb2c8104b8dd5b649046d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f9d98764103b3e8e5f4caf707ecd8b') in 0.032090 seconds 
-  Import took 0.035983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/BigCloset.prefab
-  artifactKey: Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/BigCloset.prefab using Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a609f0ddc78948df251af12eddf3bfbc') in 0.035625 seconds 
-  Import took 0.041395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Modelos 3D/Furniture/Prefabs/Fotel3.prefab
-  artifactKey: Guid(41cf0c45f4ecbd0469567b5a28e21395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Prefabs/Fotel3.prefab using Guid(41cf0c45f4ecbd0469567b5a28e21395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7404f9de8cd917610c373bfdd0471ee1') in 0.036989 seconds 
-  Import took 0.042972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.656693 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Textures
-  artifactKey: Guid(82c4cd4828037a944b214be76986f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Textures using Guid(82c4cd4828037a944b214be76986f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d43aaee685f06d8f96ff00f920a1bce') in 0.004710 seconds 
-  Import took 0.008730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Textures
-  artifactKey: Guid(82c4cd4828037a944b214be76986f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Textures using Guid(82c4cd4828037a944b214be76986f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d43aaee685f06d8f96ff00f920a1bce') in 0.004002 seconds 
-  Import took 0.007985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 386.975075 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/imagen_scaled.jpg
-  artifactKey: Guid(42afa831b977430ebb9f099aa38dfea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/imagen_scaled.jpg using Guid(42afa831b977430ebb9f099aa38dfea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24567178bdb593a71e0be32ed7791857') in 0.016938 seconds 
-  Import took 0.021214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.474719 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso1_scaled.jpg
-  artifactKey: Guid(6a942e10161b4367b44cc5962d96b809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso1_scaled.jpg using Guid(6a942e10161b4367b44cc5962d96b809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22986337b801a1af8038f975c9eeafb') in 0.030146 seconds 
-  Import took 0.036711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso2_scaled.jpg
-  artifactKey: Guid(de885d3d630549b388e75543e9dec374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso2_scaled.jpg using Guid(de885d3d630549b388e75543e9dec374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bf461de8af8d913551f605e3e82e8f') in 0.024526 seconds 
-  Import took 0.028846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso1_scaled.jpg
-  artifactKey: Guid(6a942e10161b4367b44cc5962d96b809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso1_scaled.jpg using Guid(6a942e10161b4367b44cc5962d96b809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22986337b801a1af8038f975c9eeafb') in 0.013670 seconds 
-  Import took 0.017450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso3_scaled.jpg
-  artifactKey: Guid(a80ab4adf5a149cca4f98f0fbd36f5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/piso3_scaled.jpg using Guid(a80ab4adf5a149cca4f98f0fbd36f5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f242a6b8d44550023d139a5ac34608b2') in 0.029270 seconds 
-  Import took 0.033890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.907471 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/roquitas_scaled.jpg
-  artifactKey: Guid(b9918d8637794721ac5ab12a1beb0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/roquitas_scaled.jpg using Guid(b9918d8637794721ac5ab12a1beb0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54e147f1d4d86dd9ba782c792a2f1db') in 0.018239 seconds 
-  Import took 0.023282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005495 seconds.
-  path: Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/roquitas_scaled.jpg
-  artifactKey: Guid(b9918d8637794721ac5ab12a1beb0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Vuforia/ImageTargetTextures/proyecto1/roquitas_scaled.jpg using Guid(b9918d8637794721ac5ab12a1beb0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54e147f1d4d86dd9ba782c792a2f1db') in 0.018632 seconds 
-  Import took 0.023311 seconds .
+  Time since last request: 0.000402 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/VirtualButtonPreviewMaterial.mat
+  artifactKey: Guid(a88c225b69241164ab829bccf61d8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/VirtualButtonPreviewMaterial.mat using Guid(a88c225b69241164ab829bccf61d8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8a2a8733bbf1299d88bc85a1d0c763') in 0.163571 seconds 
+  Import took 0.167072 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.033011 seconds.
+Registered in 0.024812 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -994,18 +164,18 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.624 seconds
+- Completed reload, in  1.542 seconds
 Platform modules already initialized, skipping
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.3 MB.
+System memory in use before: 83.9 MB.
+System memory in use after: 83.9 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2187.
-Total: 4.463100 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.112900 ms MarkObjects: 3.756200 ms  DeleteObjects: 0.336200 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2189.
+Total: 5.067400 ms (FindLiveObjects: 0.818500 ms CreateObjectMapping: 0.189700 ms MarkObjects: 3.938500 ms  DeleteObjects: 0.118300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1021,69 +191,69 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.022737 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.448 seconds
-Platform modules already initialized, skipping
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.3 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2190.
-Total: 3.077300 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.688100 ms  DeleteObjects: 0.127400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014810 seconds.
+Registered in 0.021948 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 84.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2192.
+Total: 3.756000 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.073000 ms MarkObjects: 3.139800 ms  DeleteObjects: 0.137900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -1112,136 +282,18 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.513 seconds
+- Completed reload, in  1.251 seconds
 Platform modules already initialized, skipping
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.4 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2193.
-Total: 5.840300 ms (FindLiveObjects: 0.778900 ms CreateObjectMapping: 0.382200 ms MarkObjects: 4.579900 ms  DeleteObjects: 0.095600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.038200 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
-Platform modules already initialized, skipping
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.4 MB.
+System memory in use before: 83.9 MB.
+System memory in use after: 84.0 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2196.
-Total: 2.386600 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.981500 ms  DeleteObjects: 0.139400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019326 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
-Platform modules already initialized, skipping
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.4 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2199.
-Total: 3.481100 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.057900 ms MarkObjects: 3.088000 ms  DeleteObjects: 0.129300 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2195.
+Total: 3.064400 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.126700 ms MarkObjects: 2.463600 ms  DeleteObjects: 0.128100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1256,20 +308,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 656.818568 seconds.
-  path: Assets/Modelos 3D/Furniture/Source/Mesh
-  artifactKey: Guid(8562800842a08234fbf7b7ef7b6b5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Furniture/Source/Mesh using Guid(8562800842a08234fbf7b7ef7b6b5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c2db19c7ab35d7fe8aa70855ad8f7b') in 0.011934 seconds 
-  Import took 0.016211 seconds .
+  Time since last request: 952.118619 seconds.
+  path: Assets/Modelos 3D/Old Nightstand/Textures
+  artifactKey: Guid(685ff49cd59f3ee469389e0eb7d67a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3D/Old Nightstand/Textures using Guid(685ff49cd59f3ee469389e0eb7d67a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3da7c539951168dbeed60c56371f57') in 0.008066 seconds 
+  Import took 0.011472 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.026455 seconds.
+Registered in 0.020560 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -1297,18 +349,18 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.331 seconds
+- Completed reload, in  1.169 seconds
 Platform modules already initialized, skipping
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.4 MB.
+System memory in use before: 83.9 MB.
+System memory in use after: 84.0 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2202.
-Total: 2.362500 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.999400 ms  DeleteObjects: 0.118800 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 4.475600 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.135500 ms MarkObjects: 3.738100 ms  DeleteObjects: 0.191200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1324,11 +376,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.015658 seconds.
+Registered in 0.016090 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -1356,18 +408,18 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
+- Completed reload, in  1.221 seconds
 Platform modules already initialized, skipping
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.4 MB.
+System memory in use before: 84.0 MB.
+System memory in use after: 84.0 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2205.
-Total: 3.093900 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.066200 ms MarkObjects: 2.551700 ms  DeleteObjects: 0.222400 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2201.
+Total: 2.987900 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.540500 ms  DeleteObjects: 0.164000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
