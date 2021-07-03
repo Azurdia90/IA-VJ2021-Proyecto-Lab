@@ -285,22 +285,22 @@
  <HintPath>D:/Users/iazurdia90/Downloads/com/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>D:/Users/iazurdia90/Downloads/com/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Program Files/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -651,16 +651,16 @@
  <HintPath>D:/Program Files/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>D:/ia/Nueva carpeta/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/ia/Nueva carpeta (2)/IA-VJ2021-Proyecto-Lab/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
