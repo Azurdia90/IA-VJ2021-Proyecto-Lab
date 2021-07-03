@@ -3229,7 +3229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ddPiso: {fileID: 1993455148}
-  ddIluminacion: {fileID: 1993455148}
+  ddIluminacion: {fileID: 1742409160}
   ddEscritorio: {fileID: 403937967}
   ddSilla: {fileID: 31053576}
   ddCuadro: {fileID: 1123710547}
@@ -6577,7 +6577,6 @@ GameObject:
   - component: {fileID: 1993455150}
   - component: {fileID: 1993455149}
   - component: {fileID: 1993455148}
-  - component: {fileID: 1993455151}
   m_Layer: 5
   m_Name: DdwnPiso
   m_TagString: Untagged
@@ -6698,23 +6697,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993455146}
   m_CullTransparentMesh: 1
---- !u!114 &1993455151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993455146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: add9d276226d44260ac94b354bf0652a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ddPiso: {fileID: 0}
-  ddIluminacion: {fileID: 0}
-  ddEscritorio: {fileID: 0}
-  ddSilla: {fileID: 0}
-  ddCuadro: {fileID: 0}
 --- !u!1 &2008953123
 GameObject:
   m_ObjectHideFlags: 0
@@ -6799,7 +6781,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2025532945}
-  - component: {fileID: 2025532944}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -6807,24 +6788,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2025532944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025532943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b30e4f7dff0984864bb332c86a277f99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite1: {fileID: 0}
-  sprite2: {fileID: 0}
-  sprite3: {fileID: 0}
-  gameObject1: {fileID: 0}
-  gameObject2: {fileID: 0}
-  gameObject3: {fileID: 0}
 --- !u!224 &2025532945
 RectTransform:
   m_ObjectHideFlags: 0

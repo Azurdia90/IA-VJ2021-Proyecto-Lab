@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -47,15 +48,23 @@ public class scriptPrincipal : MonoBehaviour
     {
         
     }
+    public void AddLogText(string txt)
+    {
+        string path = Application.dataPath + "/bitacora_201020331_201314697.txt";
+        if (!File.Exists(path))
+        {
+            File.WriteAllText(path, "**** LOGS ****\n");
+        }
+        string content = $"** Logging date: {System.DateTime.Now} **\n{txt}\n\n";
+        File.AppendAllText(path, content);
+    }
 
     public Escena GetCurrentSceneConfig()
     {
         if (currentScene == null) {
-            Debug.Log("Sin escena seleccionada..." + "\n");
             unit = 3;
             currentScene = lista_escenas[3];
         }
-        Debug.Log("GetCurrentSceneConfig...." + "\n");
         return currentScene;
     }
 
@@ -75,11 +84,26 @@ public class scriptPrincipal : MonoBehaviour
         if(lista_escenas.Count < 3)
         {
             unit = unit + 1;
-            currentScene = new Escena(unit,piso,iluminacion,mesa,silla,cuadro,indexpiso);
-            lista_escenas.Add(currentScene);
+            if(mesa != silla)
+            {
+                currentScene = new Escena(unit,piso,iluminacion,mesa,silla,cuadro);
+                lista_escenas.Add(currentScene);
+                AddLogText($"Se creo el espacio ${unit + 1}");
+                #if UNITY_EDITOR
+                    EditorUtility.DisplayDialog("Alerta","El espacio ha sido creado.", "", "");
+                #endif
+            }
+            else
+            {
+                AddLogText($"Error: Se intento colocar l Siila y la mesa en la misma posición");
+                #if UNITY_EDITOR
+                    EditorUtility.DisplayDialog("Alerta","Silla y Mesa no pueden estar en la misma posición.", "", "");
+                #endif
+            }
         }
         else
         {
+            AddLogText($"Error: Los tres espacios ya han sido utilizados");
             #if UNITY_EDITOR
             EditorUtility.DisplayDialog("Alerta", "Los 3 espacios ya fueron utilizados.", "", "");
             #endif
@@ -93,6 +117,7 @@ public class scriptPrincipal : MonoBehaviour
         {
             if(lista_escenas[index] == null)
             {
+                AddLogText($"No se podra ver el espacio ${index + 1}");
                 #if UNITY_EDITOR
                     EditorUtility.DisplayDialog("Alerta","No se puede ver el espacio {index + 1}, aún no ha sido definido.", "", "");
                 #endif
@@ -121,9 +146,11 @@ public class scriptPrincipal : MonoBehaviour
         {
             unit = unit -1;
             lista_escenas.RemoveAt(index); 
+            AddLogText($"Se elimin� el espacio ${index + 1}");
         }
         else
         {
+            AddLogText($"Error: Los 3 espacios fueron eliminados");
             #if UNITY_EDITOR
             EditorUtility.DisplayDialog("Alerta", "Los 3 espacios fueron eliminados.", "", "");
             #endif
@@ -160,18 +187,18 @@ public class scriptPrincipal : MonoBehaviour
     {
         if (index < 0) 
         {
+            AddLogText($"No fue posible visualizar el espacio ${index + 1}");
             #if UNITY_EDITOR
                 EditorUtility.DisplayDialog("Alerta", "Ocurrio un error no fue encontrada el Espacio.", "", "");
             #endif
             return;
         }
 
-        Debug.Log("Size...." + lista_escenas.Count + "\n");
         currentScene = lista_escenas[index];
-        Debug.Log("Current...." + currentScene.name + "\n");
-
+        AddLogText($"Se podra visualizar el espacio ${index + 1}");
         Application.LoadLevel(sceneName);
     }
+
     public class Escena
     {
         public string name;
@@ -182,7 +209,7 @@ public class scriptPrincipal : MonoBehaviour
         public int cuadro;
         public int indexPiso;
 
-        public Escena(int nivel, int ppiso, int piluminacion, int pmesa, int psilla, int pcuadro, int pindexpiso)
+        public Escena(int nivel, int ppiso, int piluminacion, int pmesa, int psilla, int pcuadro)
         {
             this.name = "Escena " + nivel;
             this.piso = ppiso;
@@ -190,7 +217,7 @@ public class scriptPrincipal : MonoBehaviour
             this.mesa = pmesa;
             this.silla = psilla;
             this.cuadro = pcuadro;
-            this.indexPiso = pindexpiso;
+            this.indexPiso = ppiso;
         }
 
     }

@@ -18,21 +18,45 @@ public class scriptCrearEspacios : MonoBehaviour
     public Dropdown  ddSilla;
     public Dropdown  ddCuadro;
 
-    List<string> pisos = new List<string>() { "piso1", "piso2", "piso3"};
-    List<string> iluminacion = new List<string>() { "Verde", "Azul", "Rojo"};
-    List<string> posiciones = new List<string>() { "superior izquierda", "superior derecha", "centro", "inferior izquierda", "inferior dererecha" };
-    List<string> paredes = new List<string>() { "Pared 1", "Pared 2"};
-
+    
     void Awake()
     {
-        if(ddPiso != null && ddIluminacion != null && ddEscritorio != null && ddSilla != null & ddCuadro != null)
+        
+        if(ddPiso != null )
         {
+            List<string> pisos = new List<string>() { "piso1", "piso2", "piso3"};
+            ddPiso.ClearOptions();
             ddPiso.AddOptions(pisos);
+        }
+
+        if(ddIluminacion != null)
+        {
+            List<string> iluminacion = new List<string>() { "Verde", "Azul", "Rojo"};
+            ddIluminacion.ClearOptions();
             ddIluminacion.AddOptions(iluminacion);
+        }
+
+        if(ddEscritorio != null )
+        {
+            List<string> posiciones = new List<string>() { "superior izquierda", "superior derecha", "centro", "inferior izquierda", "inferior dererecha" };
+            ddEscritorio.ClearOptions();
             ddEscritorio.AddOptions(posiciones);
+        }
+            
+        if(ddSilla != null)
+        {
+            List<string> posiciones = new List<string>() { "superior izquierda", "superior derecha", "centro", "inferior izquierda", "inferior dererecha" };
+            ddSilla.ClearOptions();
             ddSilla.AddOptions(posiciones);
+        }
+
+        if(ddCuadro != null)
+        {
+            List<string> paredes = new List<string>() { "Pared 1", "Pared 2"};
+            ddCuadro.ClearOptions();
             ddCuadro.AddOptions(paredes);
         }
+            
     }
 
     public void Regresar()
