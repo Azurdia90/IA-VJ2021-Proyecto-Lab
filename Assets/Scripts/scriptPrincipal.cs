@@ -17,6 +17,19 @@ public class scriptPrincipal : MonoBehaviour
     private static int unit = 3;
     public static List<Escena> lista_escenas = new List<Escena>();
 
+
+    public class Escena
+    {
+        public string name;
+        public int silla;
+        public int mesa;
+        public int lampara;
+        public int cuadro;
+        public int indexPiso;
+
+    }
+
+
     // Start is called before the first frame update
     public static scriptPrincipal GetInstance()
     {
@@ -27,22 +40,10 @@ public class scriptPrincipal : MonoBehaviour
         return _instance;
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void crearEscena()
     {
-        currentScene = new Escena(unit);
-        lista_escenas.Add(currentScene);
-        unit = unit -1;
+        //currentScene = new Escena(unit);
+        //lista_escenas.Add(currentScene);
+        //unit = unit -1;
     }
 }

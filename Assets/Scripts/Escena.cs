@@ -22,5 +22,4 @@ public class Escena : MonoBehaviour
         this.cuadre = 0;
         this.indexPiso = 0;
     }
-
 }
